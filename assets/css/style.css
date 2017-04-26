@@ -16,15 +16,17 @@ header{
 
 }
 section{
-    background-color: lightgray ;
+
+background-color: #dddddd ;
   border-top: 2px solid gray;
   color: #777;
   display: block;
   font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
   padding: 24px 15px;
   text-align: center;
-  height: 280px;
+  height: 680px;
   border-bottom: 8px solid lightseagreen;
+  background-image: url('../image/fba7da61.png')
 
  
   
@@ -60,15 +62,15 @@ footer{
 .article{
     padding: 30px;
     color:lightseagreen;
-    background-color: #ffffff;
     border: 1px solid #dddddd;
     margin-right: 340px;
-    height: 190px;
+    height: 600px;
     margin-left: 40px;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: small;
-    overflow: auto;
+    background-color: #f9f9f9;
+    margin-top: 10px;
 
     
 }
@@ -83,12 +85,50 @@ aside{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: lightseagreen;
     font-size:small;
+    position: relative;
+    top: 9.5px;
+  
+}
+p{
+    padding: 2px;
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #dddddd;
 }
 hr{
-
+    color: #dddddd
 }
-
-
+img{
+   
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.city{
+      float: left;
+   margin: 10px;
+   padding: 10px;
+   width: 170px;;
+   height: 150px;
+   border: 1px solid #dddddd;
+   position: relative;
+   left: 40px;
+}
+   
+h2{
+   font-family: Arial, Helvetica, sans-serif; 
+   color:#777;
+   font-size: small;
+   
+}
+#p{
+    height: 150px;
+}
+button{
+    background-color: lightseagreen;
+    color:#777;
+    margin-bottom: 10px;
+}
 
   
 
