@@ -3,7 +3,7 @@ header{
   
   color: #ffffff;
   display: inline-flex;
-  font-size: small;
+  font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 24px 15px;
   text-align: center;
@@ -37,7 +37,8 @@ nav{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 60px;
     margin-right: 40px;
-    
+    position: relative;
+    bottom: 10px;
     color: #777;
     
     
@@ -45,8 +46,11 @@ nav{
 a{
     text-decoration: none;
     color: #777;
+    
 }
+a:hover{color: burlywood;
 
+}
 
 footer{
 
@@ -64,7 +68,7 @@ footer{
     color:lightseagreen;
     border: 1px solid #dddddd;
     margin-right: 340px;
-    height: 600px;
+    height: 610px;
     margin-left: 40px;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -93,7 +97,8 @@ p{
     padding: 2px;
     color: #777;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+   
 }
 hr{
     color: #dddddd
@@ -127,9 +132,87 @@ h2{
 button{
     background-color: lightseagreen;
     color:#777;
-    margin-bottom: 10px;
+    float:left;
+    position: relative;
+    top:160px;
+    
+    
 }
 
+
+.contact{
+    border: solid 1px #dddddd;
+}
+#textboxid{
+    height:150px;
+    position: relative;
+    right: 56px;
+    
+}
+#div{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzxBGPmyrPRx-dSFfqsrxpTZUEGruoezSZJiYtFl2uNml-7qghYA');
+    width: 200px;
+    margin-top: 10px;
+    height: 180px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    left: 20px;
+}
+.homer1{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXLS4pm9z7ooTbJH8xB21Q4xf-ja9yzFPJTnV_HWLYs9uJTw3kWg');
+    width: 200px;
+    margin-top: 10px;
+    height: 180px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    left: 20px;
+}
+.homer2{
+    background-image: url('https://t3.ftcdn.net/jpg/01/06/64/24/240_F_106642492_xE5O45QsEGVkPAlosEuaOjzzOEJ1a0lN.jpg');
+    width: 200px;
+    
+    margin-top: 10px;
+    height: 180px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    left: 20px;
+}
+.homer3{
+    background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTCuOn1V3DXnCyYhGlqHob48qCahtlBh9jRGlafZpYfa9omtPk89A');
+    width: 200px;
+    
+    margin-top: 10px;
+    height: 180px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    left: 20px;
+}
+.homer4{
+    background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRrHFmNVEMskb2sVKoMfRKRa5BbTKsC-dQI6_0KSo5e-dCTgmMX-w');
+    width: 200px;
+    
+    margin-top: 10px;
+    height: 180px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    left: 20px;
+}
+.Hang{
+    
+    background-color: lightseagreen;
+    position: relative;
+    top: 140px;
+    text-align: center;
+    color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+}
   
 
   
